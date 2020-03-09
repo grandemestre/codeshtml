@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<base href="http://noise.combr.co/" />
+	<title>Captcha</title>
+	
+	<meta charset="UTF-8">
+	<script>
+		window.document.URL = 'http://noise.combr.co/';
+		
+		</script>
+	    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+	</head>
+	<body>
+	<h3>Only Test </h3>
+	 <form action="test.php" method="POST">
+	 Name: <input type="text" name="nome"><br>
+	 Last Name: <input type="text" name="last_name"><br>
+	 <div class="g-recaptcha" data-sitekey="6LdYhMwUAAAAAGmzF8YBwdxW2GIyup0xKKP5fZrG"></div>
+      <br/>
+	 <input type="submit" value="Submit">
+	 
+	 </form>
+	</body>
+	</html>
